@@ -1,0 +1,363 @@
+/* 
+---------------------------------------------MEC Website stylesheet. 
+
+Required stylesheet for all menu pages showing options, eg: Departments page
+
+Please add the changes you have made in the changelog section below...
+
+
+
+----------------------------------------------------CHANGELOG--------------------------------------------
+
+4/8/13       File Created by: Jobin Jose 2014 CS jobin1992@gmail.com  
+
+
+
+
+
+*/
+
+
+
+
+
+
+/*-------------------------General Layout*/
+
+* {margin: 0; padding: 0;}
+
+html, body { height: 100%;}
+
+body 
+{ 
+font: 12px Arial, Helvetica, sans-serif;
+background-color: #fff; 
+color: #585754;
+}
+ 
+#wrapper
+ { 
+ min-width: 980px; 
+ min-height: 100%; 
+ margin: 0 auto; 
+ padding: 0; 
+ }
+ 
+.wrap
+ { 
+ width: 960px; 
+ margin: 0 auto; 
+ }
+
+.container
+{ 
+width: 960px; 
+min-width:960px; 
+margin: 0 auto; 
+padding-bottom: 120px;
+}
+
+a 
+{
+ text-decoration:none;
+ color: #585754;
+}
+
+h1 { font-size:35px; font-family: Arial, Helvetica, sans-serif; color: #565245; font-weight: 400  }
+h2 { font-size:19px; font-family: Arial, Helvetica, sans-serif; text-transform: capitalize; color: #820000; font-weight: 400; position:absolute; bottom:5px; }
+h3 { font-size:20px; font-family: lato; font-weight: 400; }
+h4 { font-size:13px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
+h5 { font-size:12px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
+
+p { font-size:15px; font-family: Arial, Helvetica, sans-serif; font-weight: 400;}
+ 
+/*----------------------------------Header*/
+
+
+#header
+{
+min-width: 980px; 
+margin: 0 auto; 
+padding: 0;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:120px;
+background-color:#8b1516;
+}
+
+#header-inner 
+{
+ height: 90px;
+ color: #fff; 
+}
+
+#header a 
+{
+ border: none; 
+}
+
+#logo
+{
+height:100px;
+margin-top:7px;
+}
+
+
+/*----------------------------------Menu*/
+
+#menubg
+{
+min-width: 980px; 
+width:100%; 
+margin: 0 auto; 
+padding: 0;
+position:absolute;
+top:120px;
+height:30px;
+background-color:#ede6ca;
+}
+
+
+.menuitem
+{
+margin-left:auto;
+margin-right:auto;
+width:885px;
+margin-top: 5px;
+}
+
+.menuitem li 
+{
+	display: inline; padding: 0 19px 0 0;
+}
+.menuitem li a 
+{ 
+	font-size: 15px; color:#525252;
+}
+
+.menuitem li a:hover 
+{ 
+	color:#000;
+}
+
+
+
+/*----------------------------------Content*/
+
+#content
+{
+margin-bottom:100px;
+min-width: 960px; 
+padding: 0;
+position:absolute;
+top:150px;
+left:auto;
+width:960px; 
+}
+
+
+#maincontent
+{
+margin-bottom:100px;
+height:1170px;
+}
+
+
+/*----------------------------------Sidebar Content*/
+#sidenav
+{
+width:180px;
+margin-top:20px;
+border-right: 1px solid #EAE9E6;
+height:1100px;
+}
+
+#sidenav ul
+{
+list-style:none;
+text-transform: uppercase;
+font-size: 14px;
+
+}
+
+.seperator
+{
+border-top: 4px solid #575853;
+width:170px;
+margin-bottom:7px;
+}
+
+.navlist
+{
+margin-left:20px;
+text-transform: capitalize;
+list-style:square;
+padding-bottom: 5px;
+}
+
+.navlist li a:hover 
+{ 
+	color:#df0204;
+}
+
+
+/*----------------------------------Slider Content*/
+#slider
+{
+position:absolute;
+top:0px;
+float:left;
+margin: 30px 0 0 195px;
+width:750px;
+height:300px;
+}
+
+
+.seperatorl
+{
+border-top: 3px solid #575853;
+width:490px;
+}
+
+
+/*----------------------------------About Content*/
+#about
+{
+position:absolute;
+top:320px;
+float:left;
+margin: 30px 0 0 195px;
+width:490px;
+height:330px;
+}
+
+
+/*----------------------------------Life@ MEC Gallery*/
+#life
+{
+position:absolute;
+top:720px;
+float:left;
+margin: 30px 0 0 195px;
+width:500px;
+height:170px;
+}
+
+.seperatorm
+{
+border-top: 3px solid #575853;
+width:240px;
+}
+
+/*----------------------------------News Content*/
+#news
+{
+position:absolute;
+float:left;
+margin: 0 0 0 10px;
+width:240px;
+height:300px;
+}
+
+.newsitem
+{
+ font: 15px Arial, Helvetica, sans-serif;
+ color: #1f1f1f;
+}
+
+
+/*----------------------------------Calendar*/
+#calendar
+{
+position:absolute;
+top:400px;
+float:left;
+margin: 0 0 0 10px;
+width:240px;
+height:200px;
+}
+
+#updates
+{
+border-left: 1px solid #EAE9E6;
+position:absolute;
+top:320px;
+float:left;
+margin: 30px 0 0 695px;
+width:240px;
+height:770px;
+
+}
+
+.optioncontainer
+{
+	position:absolute;
+	top:0px;
+	margin-left:190px;
+	width:770px;
+	height:95%;
+	margin-top: 20px; 
+	text-align: center;
+}
+
+.optionimages
+{
+	position:relative;
+	float:left;
+	margin:20px 0 20px 20px;
+	width:230px;
+	height:200px;
+	text-align: center;
+}
+
+
+/*----------------------------------Footer*/
+
+#footerbg
+{
+min-width: 980px; 
+margin: 0 auto; 
+padding: 0;
+width:100%;
+height:100px;
+background-color:#8b1516;
+position:relative;
+bottom:0px;
+}
+
+#foot
+{
+padding-top: 15px; 
+}
+
+#addr
+{
+	float: left;  
+	margin: -13px 0 0 10px; 
+	font-size: 13px; 
+	color:#e3dfd5;
+}
+
+.footlinks
+{
+margin-left:auto;
+margin-right:auto;
+width:390px;
+margin-top: 25px; 
+}
+
+.footlinks li 
+{
+	display: inline; padding: 0 19px 0 0;
+}
+.footlinks li a 
+{ 
+	font-size: 13px; color:#e3dfd5;
+}
+
+.footlinks li a:hover 
+{ 
+	color:#fff; border-bottom: 1px dotted #fff;
+}

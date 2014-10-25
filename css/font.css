@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'lato'; /*a name to be used later*/
+    src: url('../fonts/Lato-Reg.otf'); /*URL to font*/
+}
+
+
+
+@font-face {
+    font-family: Tahoma, Geneva, sans-serif;
+}
